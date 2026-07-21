@@ -70,9 +70,9 @@
     font-family:var(--disp); font-weight:700; font-size:13px; background:var(--sky-light);
   }
   nav.links{display:flex; gap:28px; font-family:var(--mono); font-size:12.5px; letter-spacing:.05em; text-transform:uppercase;}
-  nav.links a{position:relative; text-decoration:none; color:var(--ink-soft); transition:color .2s;}
-  nav.links a:hover{color:var(--ink);}
-  nav.links a::after{content:""; position:absolute; left:0; bottom:-4px; width:0; height:1px; background:var(--ink); transition:width .2s;}
+  nav.links a{position:relative; text-decoration:none; color:var(--ink-soft); transition:color .25s;padding-bottom: 4px;}
+  nav.links a:hover{color:var(--ink);font-weight: 700;}
+  nav.links a::after{content:""; position:absolute; left:0; bottom:-4px; width:0; height:2px; background:var(--ink); transition:width .25s;}
   nav.links a:hover::after{width:100%;}
   .navbtn{display:none;}
   @media (max-width:760px){
